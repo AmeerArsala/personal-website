@@ -10,7 +10,7 @@
 
 
       <span class="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 text-sm font-medium text-white backdrop-blur-3xl">
-        <img src={lambdinox} alt="lambdinox" class="rounded-full h-fit w-fit" />
+        <img src={lambdinox.src} alt="lambdinox" class="rounded-full h-fit w-fit" />
       </span>
     </a>
 
