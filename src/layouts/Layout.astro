@@ -19,9 +19,9 @@ interface Props {
 }
 
 const {
-  title = "Anemo AI",
-  author = "Anemo AI",
-  description = "We are building the next generation of Research.",
+  title = "Ameer's Website",
+  author = "Ameer Arsala",
+  description = "building RAN",
   ogImage = "og.png",
   canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
   pubDatetime,
@@ -115,8 +115,5 @@ const socialImageURL = new URL(
   <!-- I don't think we will ever need nor want horizontal scrolling of a page -->
   <body class="overflow-hidden bg-black">
     <slot />
-
-    <!-- Comment this out during production -->
-    <!-- <TailwindIndicator /> -->
   </body>
 </html>

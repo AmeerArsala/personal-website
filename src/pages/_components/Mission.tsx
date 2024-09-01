@@ -11,10 +11,10 @@ const Mission: Component = () => {
 
   return (
     <div class="flex flex-col items-center justify-center mx-auto">
-      <p class="text-white text-center whitespace-pre-line text-xl w-[50vw]">
+      <p class="text-white text-center whitespace-pre-line text-2xl w-[50vw]">
         <SolidTyper
           text={[
-            "We are building the hub for AI research & experimentation.\nTheory will only get you so far."
+            "Theory will only get you so far.\n So I'm building:"
           ]}
           backspaceSpeed={30}
           typingSpeed={80}
