@@ -1,5 +1,6 @@
 <script lang="ts">
   import { typewriterFinished } from "@data/client/stores";
+  import lambdinox from "@assets/images/lambdinox.svg"
 </script>
 
 {#if $typewriterFinished}
@@ -9,7 +10,7 @@
 
 
       <span class="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 text-sm font-medium text-white backdrop-blur-3xl">
-        <img src="./src/assets/images/lambdinox.svg" alt="lambdinox" class="rounded-full h-fit w-fit" />
+        <img src={lambdinox} alt="lambdinox" class="rounded-full h-fit w-fit" />
       </span>
     </a>
 
